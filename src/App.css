@@ -10,10 +10,27 @@
 }
 .main-container {
   background-color: var(--third-color);
-
   border-radius: 20px 20px 0 0;
   margin: -20px 0 0 0;
   padding: 2rem;
-  width: 100%;
+  width: 100vw;
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.component-box {
+  border: 1px solid var(--component-border);
+  border-radius: 12px;
+  padding: var(--box-padding);
+  margin-bottom: 20px;
+}
+
+.component-title {
+  font-size: var(--component-title-size);
+  font-weight: var(--component-title-weight);
+  color: var(--component-title-color);
+}
+.first-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }

@@ -1,0 +1,44 @@
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.formGroup label {
+  color: var(--secondory-color);
+  font-size: var(--font-small);
+  font-weight: var(--font-medium);
+}
+
+.formGroup input {
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  padding: 8px 40px;
+  font-size: var(--font-small);
+}
+
+.updateButton {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  align-self: flex-end;
+  padding: 10px;
+  border-radius: 6px;
+}
+.updateButton:hover {
+  opacity: 0.9;
+}
+
+.updateButton:active {
+  opacity: 0.8;
+}

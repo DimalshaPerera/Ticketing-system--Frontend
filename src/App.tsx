@@ -20,9 +20,13 @@ function App() {
         </span>
       </div>
       <div className="main-container">
-        <ConfigSettings />
-        <AvailableTickets />
-        <ControlPanel />
+        <div className="first-container">
+          <ConfigSettings />
+          <div>
+            <AvailableTickets />
+            <ControlPanel />
+          </div>
+        </div>
       </div>
     </>
   );
