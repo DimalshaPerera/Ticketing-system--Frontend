@@ -1,0 +1,20 @@
+.customerItem {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+  font-size: 20px;
+  color: var(--secondory-color);
+}
+
+.textContainer {
+  flex: 1;
+  text-align: center;
+}
+.iconText {
+  display: inline-block;
+}
+
+.icon {
+  font-size: 35px;
+}

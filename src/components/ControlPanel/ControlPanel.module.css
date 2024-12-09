@@ -1,1 +1,34 @@
- 
+.controlButton {
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  width: 20%;
+  border-radius: 16px;
+  height: 6vh;
+}
+
+.icon {
+  color: var(--third-color);
+  font-size: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.controlButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  width: 20%;
+  border: none;
+}
+
+.controlButton:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

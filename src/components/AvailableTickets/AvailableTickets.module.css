@@ -16,3 +16,38 @@
   color: var(--secondory-color);
   font-weight: 200;
 }
+
+.buttonGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.controlButton {
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.controlButton:hover {
+  opacity: 0.9;
+}
+
+.controlButton:active {
+  opacity: 0.8;
+}
+.icon {
+  position: absolute;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  pointer-events: none;
+}

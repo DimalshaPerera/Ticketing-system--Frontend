@@ -13,7 +13,6 @@
   border-radius: 20px 20px 0 0;
   margin: -20px 0 0 0;
   padding: 2rem;
-  width: 100vw;
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -21,16 +20,31 @@
   border: 1px solid var(--component-border);
   border-radius: 12px;
   padding: var(--box-padding);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .component-title {
   font-size: var(--component-title-size);
   font-weight: var(--component-title-weight);
   color: var(--component-title-color);
+  margin-bottom: 20px;
 }
 .first-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
   gap: 2rem;
+}
+
+.sec-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.container {
+  border: 1px solid var(--third-color);
+}
+
+.subcontainer {
+  margin-bottom: 15px;
 }

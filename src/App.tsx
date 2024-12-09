@@ -3,9 +3,11 @@
 // import viteLogo from '/vite.svg'
 import "./index.css";
 import "./App.css";
-import ConfigSettings from "./components/ConfigSettings/ConfigSettings";
-import AvailableTickets from "./components/AvailableTickets/AvailableTickets";
-import ControlPanel from "./components/ControlPanel/ControlPanel";
+import ConfigSettings from "./components/ConfigSettings/configSettings";
+import AvailableTickets from "./components/AvailableTickets/availableTickets";
+import ControlPanel from "./components/ControlPanel/controlPanel";
+import SystemLog from "./components/SystemLog/systemLog";
+import CustomerVendor from "./components/CustomerVendor/customerVendor";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -26,6 +28,10 @@ function App() {
             <AvailableTickets />
             <ControlPanel />
           </div>
+        </div>
+        <div className="sec-container">
+          <SystemLog />
+          <CustomerVendor />
         </div>
       </div>
     </>

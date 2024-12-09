@@ -22,7 +22,7 @@
 .formGroup input {
   border: 1px solid var(--input-border);
   border-radius: 6px;
-  padding: 8px 40px;
+  padding: 8px 200px;
   font-size: var(--font-small);
 }
 
