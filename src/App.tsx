@@ -8,9 +8,10 @@ import AvailableTickets from "./components/AvailableTickets/availableTickets";
 import ControlPanel from "./components/ControlPanel/controlPanel";
 import SystemLog from "./components/SystemLog/systemLog";
 import CustomerVendor from "./components/CustomerVendor/customerVendor";
+import { useState } from "react";
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [isRunning, setIsRunning] = useState(false);
 
   return (
     <>
@@ -26,11 +27,11 @@ function App() {
           <ConfigSettings />
           <div>
             <AvailableTickets />
-            <ControlPanel />
+            <ControlPanel setIsRunning={setIsRunning} />
           </div>
         </div>
         <div className="sec-container">
-          <SystemLog />
+          <SystemLog isRunning={isRunning} />
           <CustomerVendor />
         </div>
       </div>

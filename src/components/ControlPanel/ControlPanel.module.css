@@ -32,3 +32,18 @@
   opacity: 0.9;
   cursor: pointer;
 }
+
+.status {
+  font-size: 0.8rem;
+}
+
+.running {
+  color: #4caf50;
+}
+
+.stopped {
+  color: #f44336;
+}
+.statusLine {
+  margin-top: -29px;
+}
